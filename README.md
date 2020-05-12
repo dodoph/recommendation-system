@@ -5,8 +5,7 @@ Project: Recommendation System
 
 1. Build instance on EC2 (include private key)
 2. Connect to the instance(ubuntu terminal)
-
-``  
+```  
 chmod 600 ~/Downloads/mykey.pem
 ssh -i ~/Downloads/mykey.pem ubuntu@YOUR_INSTANCE_IP
 ```
